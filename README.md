@@ -5,7 +5,7 @@ Cloud-native distributed commit-log service
 - Client-Server communication over [gRPC](https://grpc.io/) (ProtoBuf binary payloads)
 - Authentication w/ mTLS and self-operated CA w/ [CloudFlare CFSSL toolkit](https://github.com/cloudflare/cfssl) 
 - Authorization thru simple ACL implementation w/ [casbin](https://github.com/casbin/casbin)
-- Instrumented for observability (Metrics/Tracing w/ [OpenCensus](https://opencensus.io/); Logging w/ [Zap](https://github.com/uber-go/zap)
+- Instrumented for observability (Metrics/Tracing w/ [OpenCensus](https://opencensus.io/); Logging w/ [Zap](https://github.com/uber-go/zap))
 - Compatible w/ [Prometheus](https://prometheus.io/), [Jaegar](https://www.jaegertracing.io/), [Elasticsearch](https://www.elastic.co/) for Production deployment
 # In Development
 - Server2Server Service Discovery w/ [HashiCorp Serf](https://github.com/hashicorp/serf)
