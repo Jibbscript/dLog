@@ -7,7 +7,7 @@ Cloud-native distributed commit-log service
 - Authorization thru simple ACL implementation w/ [casbin](https://github.com/casbin/casbin)
 - Instrumented for observability (Metrics/Tracing w/ [OpenCensus](https://opencensus.io/); Logging w/ [Zap](https://github.com/uber-go/zap)
 - Compatible w/ [Prometheus](https://prometheus.io/), [Jaegar](https://www.jaegertracing.io/), [Elasticsearch](https://www.elastic.co/) for Production deployment
-## In Development
+# In Development
 - Server2Server Service Discovery w/ [HashiCorp Serf](https://github.com/hashicorp/serf)
 - Service clustering w/ consensus backed by [Raft](https://raft.github.io/) algorithm provided by [HashiCorp Raft library](https://github.com/hashicorp/raft)
 - Client-side discovery and load-balancing (Preferable to proxy-based LB for higher perf communication between trusted internal-services)
