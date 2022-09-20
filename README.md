@@ -19,4 +19,4 @@ Cloud-native distributed commit-log service
 - [CFSSL](https://blog.cloudflare.com/introducing-cfssl/)
 - [gRPC server options](https://godoc.org/google.golang.org/grpc#ServerOption)
 - [Serf](https://www.serf.io/)
-- [distributed-services-with-go](https://pragprog.com/book/tjgo/distributed-services-with-go)
+- [distributed-services-with-go](https://www.oreilly.com/library/view/distributed-services-with/9781680508376/)
