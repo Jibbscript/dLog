@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 
-	"github.com/jibbscript/dlog/internal/server"
+	httpserver "github.com/jibbscript/dlog/internal/server/httpPrototype"
 )
 
 func main() {
-	srv := server.NewHTTPServer(":8080")
+	srv := httpserver.NewHTTPServer(":8080")
 	log.Fatal(srv.ListenAndServe())
 }
