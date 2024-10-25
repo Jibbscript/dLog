@@ -1,0 +1,60 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Go modules
+vendor/
+go.sum
+
+# IDE directories
+.vscode/
+
+# Protobuf generated files
+*.pb.go
+
+# Logs
+*.log
+
+# Dependency directories
+Godeps/
+
+# Compiled object files
+*.o
+*.a
+*.so
+
+# Test binary, coverage data, and result files
+*.test
+*.cover
+*.cov
+*.prof
+
+# Editor swap files
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*.swo
+*.swn
+*.swr
+*.sws
+*.swt
+*.swx
+*.swz
+*.swm
+
+
